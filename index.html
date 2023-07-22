@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="classes/logo.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter">
+        <link rel="stylesheet" href="style.css">
+        <title>Desafio 1 One - Challenge</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="imagens/logo.svg" alt="Alura" title="Alura"> <div title="Logo Alura"></div>
+        </header>
+        <main>
+            <section class="desk-in">
+                <textarea class="txt-in" placeholder="Digite sua mensagem aqui..." autofocus></textarea>
+                <div class="informacao">
+                    <img src="imagens/info.svg" alt="!"><h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+                <div class="btns-in">
+                    <button class="btn-encriptar" onclick="criptografarTexto()">Criptografar</button>
+                    <button class="btn-decriptar" onclick="descriptografarTexto()">Descriptografar</button>
+                </div>
+            </section>
+            <section class="desk-out">
+                <div class="txt-out" contenteditable></div>
+                <button class="btn-copy" onclick="copiarTexto()">Copiar</button>
+                <div class="txt-no">
+                    <img src="imagens/none.svg" alt="Sem mensagem">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <h5>Digite um texto que você deseja criptografar ou descriptografar</h5>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h6><a href="https://github.com/estefaniacarrer" target="_blank" >Estefania Carrer</a> &copy; 2023</h6>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
