@@ -1,6 +1,8 @@
 
 ### Decodificador de Texto - [Alura Challenges Oracle ONE](https://www.alura.com.br)
 
+⭐ Acesso: https://estefaniacarrer.github.io/Decodificador_de_Texto/
+
 ## Objetivo do desafio:
 
 Realização de uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
